@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"flag"
 	"fmt"
-	"github.com/ONSdigital/dp-dd-golang-db-spike/handler"
+	"github.com/ONSdigital/dp-dd-golang-db-spike/basic/handler"
 	"github.com/gorilla/pat"
 	_ "github.com/lib/pq"
 	"net/http"

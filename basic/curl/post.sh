@@ -18,6 +18,6 @@ curl \
     "Status": "complete",
     "Title": "big-all.csv",
     "TotalRowCount": 33732,
-    "DataResource": ""
+    "DataResource": "ABC123"
   }' \
 http://localhost:8000/dataset

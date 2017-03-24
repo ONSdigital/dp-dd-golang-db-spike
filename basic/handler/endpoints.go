@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"github.com/ONSdigital/dp-dd-golang-db-spike/models/dataset"
+	"github.com/ONSdigital/dp-dd-golang-db-spike/basic/models/dataset"
 	"io/ioutil"
 	"net/http"
 	"strings"

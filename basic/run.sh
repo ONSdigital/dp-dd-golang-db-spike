@@ -6,9 +6,9 @@ export DB_NAME=
 
 echo
 echo "> Compiling..."
-go build -o lib/spike
+go build -o ../lib/spike
 echo "> Compilation completed"
 
 echo
 echo "> Starting application:"
-./lib/spike --db_user=$DB_USER --db_pwd=$DB_PWD --db_name=$DB_NAME
+.././lib/spike --db_user=$DB_USER --db_pwd=$DB_PWD --db_name=$DB_NAME
